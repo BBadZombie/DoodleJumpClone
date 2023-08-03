@@ -25,9 +25,9 @@ public class PlatformSpawner : MonoBehaviour
         Instantiate(platform, new Vector3(0, -4, 0), transform.rotation);
 
         //right starter platform
-        Instantiate(platform, new Vector3(4, 0, 0), transform.rotation);
+        Instantiate(platform, new Vector3(4, 1, 0), transform.rotation);
 
         //left starter platform
-        Instantiate(platform, new Vector3(-4, 0, 0), transform.rotation);
+        Instantiate(platform, new Vector3(-4, 1, 0), transform.rotation);
     }
 }
