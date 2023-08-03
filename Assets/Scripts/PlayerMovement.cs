@@ -21,11 +21,12 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SetHorizontalMovement();
+        //setHorizontalMovement();
     }
 
     private void FixedUpdate()
     {
+        setHorizontalMovement();
         rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
     }
 
@@ -38,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void SetHorizontalMovement()
+    private void setHorizontalMovement()
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
     }
