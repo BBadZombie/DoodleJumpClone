@@ -236,7 +236,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2bbe63d6c2f8884eba551b2c6045c12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platform: {fileID: 3885259736016900859, guid: e05cfdc157682df468938c4af553d15e, type: 3}
+  rPlatform: {fileID: 2497002777915676909, guid: be6ceb3e479b62c49bd782eff217b76b, type: 3}
+  hPlatform: {fileID: 861565727953054208, guid: e3cc7356ffca20a448fe5fc0f15fb84b, type: 3}
+  vPlatform: {fileID: 3885259736016900859, guid: e05cfdc157682df468938c4af553d15e, type: 3}
 --- !u!4 &1727476681
 Transform:
   m_ObjectHideFlags: 0

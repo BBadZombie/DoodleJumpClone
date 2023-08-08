@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: -204225087020262631}
   - component: {fileID: 3885259736016900857}
   - component: {fileID: 3885259736016900856}
-  - component: {fileID: 7941359428291947367}
+  - component: {fileID: -7907425730208244855}
   m_Layer: 0
-  m_Name: platform
+  m_Name: vPlatform
   m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123,7 +123,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9fd1741b710b0f248a5d8abaae6f7e94, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 18d62d313a58f014f8fe9b1aae7b9f87, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -134,7 +134,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7941359428291947367
+--- !u!114 &-7907425730208244855
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,7 +143,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 3885259736016900859}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73a2e827a0776154aaa55c95d2669248, type: 3}
+  m_Script: {fileID: 11500000, guid: 41edda2af16a92e4cbf9a45f38d21510, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: -204225087020262631}

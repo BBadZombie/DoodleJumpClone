@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PlatformSpawner : MonoBehaviour
 {
-    public GameObject platform;
+    public GameObject rPlatform;
+    public GameObject hPlatform;
+    public GameObject vPlatform;
 
     // Start is called before the first frame update
     void Start()
@@ -22,12 +24,12 @@ public class PlatformSpawner : MonoBehaviour
     private void SpawnPlatforms()
     {
         //middle starter platform
-        Instantiate(platform, new Vector3(0, -4, 0), transform.rotation);
+        Instantiate(rPlatform, new Vector3(0, -4, 0), transform.rotation);
 
         //right starter platform
-        Instantiate(platform, new Vector3(4, -0.5f, 0), transform.rotation);
+        Instantiate(hPlatform, new Vector3(4, -0.5f, 0), transform.rotation);
 
         //left starter platform
-        Instantiate(platform, new Vector3(-4, -0.5f, 0), transform.rotation);
+        Instantiate(vPlatform, new Vector3(-4, -0.5f, 0), transform.rotation);
     }
 }
