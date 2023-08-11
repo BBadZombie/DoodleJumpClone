@@ -15,7 +15,7 @@ Contributions not welcome, as this project is being used for personal Unity prac
 
 __Implement platform behaviors including:__
 - ~~Horizontal sliding~~
-- Vertical sliding
+- ~~Vertical sliding~~
 - Breaking when collision occurs
 - Disappearing shortly after collision occurs
 
